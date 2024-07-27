@@ -1,0 +1,25 @@
+
+
+.listStyle{
+    position: relative;
+    display: grid;
+    grid-template-columns: 4rem 1fr;
+    grid-template-rows: auto auto;
+    column-gap: 2.4rem;
+    font-size: 1.6rem;
+    align-items: center;
+    padding: 1.6rem 3.2rem;
+    border-bottom: 1px solid theme(colors.bg-dark-100);
+}
+
+.rightPanel{
+  width: 52rem;
+  max-width: 52rem;
+  background-color: theme(colors.bg-dark-900);
+  border-radius: 0.9rem;
+  position: relative;
+  overflow: scroll;
+}
+
+
+
